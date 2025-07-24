@@ -1,4 +1,4 @@
-fnames = []
+fnames = ['victim.go', 'prepare.sh', 'serving/content.bat']
 
 for fname in fnames:
     with open(fname) as f:
