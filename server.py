@@ -4,7 +4,7 @@ import queue
 import os
 
 HOST = '0.0.0.0'
-PORT = 8081
+PORT = 5000
 
 command_list_str = """
 Command list:
